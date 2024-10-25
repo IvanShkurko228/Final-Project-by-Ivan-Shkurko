@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+    background-color: white;
+    font-family:"Raleway","sans-serif";
+    font-size: 20px;
+    color: black;
+}
+h1,h2,h3,p,ul{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 100%; 
+    padding: 0 20px; 
+    box-sizing: border-box;
+}
+/*Header*/
+.header {
+    background-color: #121212;
+    padding: 20px 0; 
+}
+
+.header-container {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    padding-left: 50px; 
+}
+
+.header-list {
+    display: flex; 
+    gap: 30px; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.header-item {
+    display: inline-block;
+}
+
+.header-logo {
+    font-family: "Exo2", "sans-serif";
+    font-weight: 600;
+    font-size: 32px; 
+    color: #B2FFA6; 
+    margin-right: 50px; 
+}
+
+.header-link {
+    font-weight: 500;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 18px; 
+}
+.header-link:hover {
+    color: #B2FFA6;
+}
+
+.header-active {
+    color: #B2FFA6; 
+}
+/*Перша секція*/
+.one-container{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.one-text{
+    font-family:"Raleway",sans-serif;
+    font-size: 64px;
+    font-weight:400;
+    color: black;
+    margin-left: 100px;
+    margin-bottom:30px;
+}
+.one-text-two{
+    font-family:"Raleway",sans-serif;
+    font-size: 64px;
+    font-weight:700;
+    color: black;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.one-link{
+    display: inline-block;
+    background: #B2FFA6;
+    color: #000;
+    padding: 6px 36px;
+    border-radius: 5px;
+    font-size: 32px;
+    font-weight: 400;
+    margin-left: 100px;
+    margin-top: 40px;
+    font-family:"Oswald",sans-serif;
+}
+.one-img{
+    margin-left: 50px;
+}
+/*Друга секція*/
+.two{
+     background-color: #efefef;
+}
+.two-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.two-img{
+    margin-right: 4px;
+}
+.two-title {
+    font-family:"Raleway","sans-serif";
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 95px;
+    margin-bottom: 28px;
+    }
+.two-text{
+    font-family:"Raleway","sans-serif";
+    color: #000;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 57px;
+    
+}
+.two-link{
+    font-family:"Oswald","sans-serif";
+    display: inline-block;
+    background: #B2FFA6;
+    color: #000;
+    padding: 15px 80px;
+    border-radius: 5px;
+    font-size: 32px;
+    font-weight: 400;
+   }
+/*Третя секція*/
+.three-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.three-elem {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%; 
+}
+
+.three-item {
+    width: 48%; 
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.three-img-large {
+    width: 35%; 
+    height: auto;
+}
+/*Четверта секція*/
+.four {
+    background-color: #EFEFEF;
+    padding: 20px;
+    text-align: center; 
+}
+
+.four-title {
+    color: #000;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px; 
+}
+
+.four-text {
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px; 
+}
+
+.four-list {
+    display: flex;
+    justify-content: center;
+    gap: 16px; 
+    flex-wrap: wrap;
+}
+
+.four-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.four-images {
+    width: 100px; 
+    height: auto;
+    box-sizing: border-box;
+}
+
+.four-caption {
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px; 
+}
+.four-button {
+    font-family: "Oswald";
+    margin-top:10px;
+    padding: 20 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(247,247,247);
+    box-shadow:0px 2px 1px -1px rgba(3, 243, 3, 0.2),rgba(8, 249, 0, 0.14),
+    0px 1px 3px 0px rgba(64, 248, 2, 0.12);
+    cursor: pointer;
+    font-size: 37px;
+    border: 4px solid #B2FFA6;
+}
+.four-button:focus {
+    background-color: white;
+}
+/*Footer*/
+.footer{
+    background-color: #000;
+    padding: 41px 0;
+    border-bottom: #000 2px solid;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+.footer-logo {
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 0px;
+}
+.footer-text{
+   color: #FFF;
+   font-size:24px;
+   font-weight:400;
+   margin-right: 0px;
+}
+
